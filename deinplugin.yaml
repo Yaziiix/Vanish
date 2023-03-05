@@ -6,7 +6,7 @@ authors:
 supportedGameVersions: 1.19.3
 category: misc
 introduction: Ein normales Vanish Plugin, um sich unsichtbar zumachen.
-description:
+description: |
     # Beschreibung
       Das Plugin ist ein einfaches/normales Vanish Plugin mit verstellbaren Nachrichten/Permissions usw.
     
