@@ -7,3 +7,6 @@ commands:
   vanish:
     aliases:
       - v
+  rvanish:
+    aliases:
+      - rv

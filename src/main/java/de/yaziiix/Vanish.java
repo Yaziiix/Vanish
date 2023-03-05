@@ -1,11 +1,12 @@
 package de.yaziiix;
 
 import de.yaziiix.commands.CMD_Vanish;
+import de.yaziiix.utils.Config;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Vanish extends JavaPlugin {
 
-    private Config config;
+    public static Config config;
     private static Vanish plugin;
 
     public void onLoad() {
@@ -18,8 +19,8 @@ public final class Vanish extends JavaPlugin {
     public void onEnable() {
         getCommand("vanish").setExecutor(new CMD_Vanish());
         System.out.println("------------------");
-        System.out.println("Vanish von Yaziiix");
-        System.out.println("Aktiviert");
+        System.out.println("Vanish from Yaziiix");
+        System.out.println("Activated");
         System.out.println("------------------");
 
     }
@@ -27,8 +28,8 @@ public final class Vanish extends JavaPlugin {
     @Override
     public void onDisable() {
         System.out.println("------------------");
-        System.out.println("Vanish von Yaziiix");
-        System.out.println("Deaktiviert");
+        System.out.println("Vanish from Yaziiix");
+        System.out.println("Disabled");
         System.out.println("------------------");
     }
 
@@ -36,7 +37,7 @@ public final class Vanish extends JavaPlugin {
         return plugin;
     }
 
-    public Config getConfiguration() {
+    public static Config getConfiguration() {
         return config;
     }
 }
