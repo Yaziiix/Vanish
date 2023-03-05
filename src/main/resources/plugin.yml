@@ -1,0 +1,9 @@
+name: Vanish-DP
+version: '${project.version}'
+main: de.yaziiix.Vanish
+api-version: 1.19
+author: Yaziiix
+commands:
+  vanish:
+    aliases:
+      - v
