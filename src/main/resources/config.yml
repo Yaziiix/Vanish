@@ -1,0 +1,10 @@
+config:
+  prefix: '&b&lVanish &8| &7'
+  vanish_on: 'Du bist nun im &bVanish§7.'
+  vanish_off: 'Du bist nun nicht mehr im &bVanish&7.'
+  vanish_other_on: 'Der Spieler &b%player% &7ist nun im Vanish.'
+  vanish_other_off: 'Der Spieler &b%player% &7ist nun nicht mehr im Vanish.'
+  not_found: 'Der Spieler &b%not_player% &7wurde nicht gefunden!'
+  nopermissions: "&cDazu hast du keine Rechte!"
+  permission: 'system.vanish'
+  use: 'Verwende &b/vanish <Name>'
