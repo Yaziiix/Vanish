@@ -7,12 +7,12 @@ supportedGameVersions: 1.19.3
 category: misc
 introduction: Ein normales Vanish Plugin, um sich unsichtbar zumachen.
 description: |
-    # Beschreibung
+    # Überblick
       Das Plugin ist ein einfaches/normales Vanish Plugin mit verstellbaren Nachrichten/Permissions usw.
-    
          # Befehl:
             - vanish
             - v
             - vanish <name>
             - v <name>
+            
 icon: https://cdn-icons-png.flaticon.com/512/1998/1998967.png
